@@ -1,0 +1,213 @@
+.main{
+	background: #87ceeb;
+}
+/*----------------header--------------*/
+.top-navbar{
+	height: 61px;
+	top: 0;
+        position: sticky;
+	background: #87ceeb;
+	margin-bottom: 20px;
+	border-bottom: 3px solid black;
+	z-index: 2;
+}
+.form-control{
+	margin-top: 9px;
+	margin-left: 30px;
+	border: 1px solid black !important;
+	border-top-left-radius:20px !important;
+	border-bottom-left-radius:20px !important;	
+	border-top-right-radius:0 !important;
+	border-bottom-right-radius:0 !important;
+	box-shadow:none !important;
+}
+.searchbox{
+	display: inline-flex;
+	width: 60%; 
+
+}
+.menu{
+	width: 40%;
+	height: 57px;
+	float: right;
+	top: 0;
+}
+.menu ul{
+	display: inline-flex; 
+	float: right;
+}
+.menu ul li{
+	border-left: 1px solid #fff;
+	list-style-type: none;
+	padding: 15px 35px;
+	text-align: center;
+	background-color: #85aaee;
+	cursor: pointer;
+}
+.menu ul li a{
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+/*---------sidemenu----------*/
+.sidemenu{
+	height: 700px;
+	width: 15%;
+	font-size: 14px;
+	float: left;
+	z-index: 2;
+	background-color: #85aaee;
+}
+.sidemenu ul{
+	margin-left: 10px;
+}
+.sidemenu ul li{
+	list-style-type: none;
+	font-weight: bold;
+	margin-top: 10px;
+	cursor: pointer;	
+}
+.sidemenu ul li:hover{
+	color: orange;
+}
+.sidemenu ul li ul{
+	display: none;
+	z-index: 10;
+	top: 77px;
+}
+.sidemenu ul li:hover ul{
+	display: block;
+	height: 400px;
+	margin-left: 10%;
+	padding: 0 100px 10px 10px;
+	position: fixed;
+	background: #ececec;
+	box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.5);
+}
+/*------------catalog-----------*/
+.catalog_table{
+	text-align: center;
+	border-spacing: 10px;
+	position: right;	
+}
+.catalog{
+
+	width: 250px;;
+}
+.title{
+	margin-left: 10px;
+}
+/*--------------footer------------*/
+.footer{
+	border: 0px;
+}
+#footer{
+	background-color: #85aaee;
+        height: 120px;
+        bottom: 0;
+	float: bottom;
+        width: 100%;
+}
+#des_img{
+	float: right;
+}
+/*--------------signup--------------*/
+.signup{
+	padding: 15px;
+	background-color: #ececec;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
